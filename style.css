@@ -1,0 +1,115 @@
+
+body{ 
+    background-color: #000000;
+}
+.card{
+    pointer-events: auto;
+    display: inline-block;
+    width: 4vw;
+    height: 0;
+    padding-bottom: 4vw;
+    background-color: #f4511e;
+    text-align: center;
+    position: relative;
+    border: 2px solid #000000; 
+}
+#content {
+    background-image: url('');
+    background-size: 100%; 
+    float: right;
+    border: 0.2vw solid #ffffff;
+    height: 13vw;
+    width: 29vw;  
+    text-align: center;
+    padding: 0px;
+    position: absolute;
+    left: 17vw; 
+  
+}
+#content p {
+    padding-top: 66px;
+    margin: 0;
+    font-family: monospace;
+    color: #ffffff;
+}
+.tri {
+    position: fixed;
+    height: 0;
+    width: 0;
+    float: left;
+    border-left: 3vw solid #000000;
+    border-bottom: 3vw solid #ffffff00;
+    z-index: 0;
+}
+.card p {
+    color: #ffffff;
+    position: relative;
+    text-align: left;
+    margin: 0 0 0 0.3vw; 
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 1vw;
+    float: left;
+    z-index: 1; 
+}
+.element h3 {
+    font-size: 2.25vw;
+    margin: 0; 
+    margin-top: 1.2vw; 
+    margin-left: 1vw; 
+    z-index: 2; 
+    font-family: monospace;
+    font-weight: bold;
+} 
+.hidden{
+    visibility: hidden;
+}
+.nobel {
+    background-color: #f41ed0;
+}
+.alkalimetals {
+    background-color: #ffeb3b;
+}
+.alkaliearthmetals {
+    background-color: #ffa000;
+}
+.transition {
+    background-color: #00bcd4;
+}
+.amphoteric {
+    background-color: #8bc34a;
+}
+.metaloids {
+    background-color: #4ce452;
+}
+.nonmetals {
+    background-color: #ba68c8;
+}
+.radioactive p{
+    color:#f4511e;
+}
+.lanthanoid{
+    background-color: #1ef4d6;
+}
+#lanthanoids p{
+    color: #000000;
+}
+#lanthanoids div{
+    visibility: hidden;
+}
+.actinoid{
+    background-color: #757ff7;
+}
+#actinoids p{
+    color: #000000;
+}
+#actinoids div{
+    visibility: hidden;
+}
+#lanthanum{
+    margin-top: 1vw;
+    margin-left: 7vw;
+}
+#actinium{
+    margin-left: 7vw;
+}
